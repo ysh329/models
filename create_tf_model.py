@@ -18,7 +18,7 @@ def create_reduce_sum_model(model_path, x1_size, x2_size, axes):
     # model.summary()
 
     # save to h5 file
-    model.save(model_path, save_format="pb")
+    model.save(model_path)
 
 
 TEST_NAME = 'reduce_sum'
